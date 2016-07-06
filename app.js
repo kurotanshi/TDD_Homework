@@ -12,7 +12,7 @@ var getSum = function(pageSize, productList, selector){
   productList.forEach(function(v, i){
     sum += v[selector];
 
-    if( i % pageSize === pageSize-1 ){
+    if( i % pageSize === pageSize - 1 ){
       arr.push(sum);
       sum = 0;
     }
