@@ -14,17 +14,17 @@ suite('TDD_Homework_01', function(){
   // arrange, 準備 productlist
   setup(function(){
     productList = [
-      new app.Product(1,  1,  11, 21),
-      new app.Product(2,  2,  12, 22),
-      new app.Product(3,  3,  13, 23),
-      new app.Product(4,  4,  14, 24),
-      new app.Product(5,  5,  15, 25),
-      new app.Product(6,  6,  16, 26),
-      new app.Product(7,  7,  17, 27),
-      new app.Product(8,  8,  18, 28),
-      new app.Product(9,  9,  19, 29),
-      new app.Product(10, 10, 20, 30),
-      new app.Product(11, 11, 21, 31)
+      new app.Product({ id:  1, cost:  1, revenue: 11, sellPrice: 21 }),
+      new app.Product({ id:  2, cost:  2, revenue: 12, sellPrice: 22 }),
+      new app.Product({ id:  3, cost:  3, revenue: 13, sellPrice: 23 }),
+      new app.Product({ id:  4, cost:  4, revenue: 14, sellPrice: 24 }),
+      new app.Product({ id:  5, cost:  5, revenue: 15, sellPrice: 25 }),
+      new app.Product({ id:  6, cost:  6, revenue: 16, sellPrice: 26 }),
+      new app.Product({ id:  7, cost:  7, revenue: 17, sellPrice: 27 }),
+      new app.Product({ id:  8, cost:  8, revenue: 18, sellPrice: 28 }),
+      new app.Product({ id:  9, cost:  9, revenue: 19, sellPrice: 29 }),
+      new app.Product({ id: 10, cost: 10, revenue: 20, sellPrice: 30 }),
+      new app.Product({ id: 11, cost: 11, revenue: 21, sellPrice: 31 })
     ];
 
   });

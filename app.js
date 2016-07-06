@@ -1,8 +1,8 @@
-var Product = function (id, cost, revenue, sellPrice) {
-  this.id = id;
-  this.cost = cost;
-  this.revenue = revenue;
-  this.sellPrice = sellPrice;
+var Product = function (props) {
+  this.id = props.id;
+  this.cost = props.cost;
+  this.revenue = props.revenue;
+  this.sellPrice = props.sellPrice;
 };
 
 var getSum = function(pageSize, productList, selector){
