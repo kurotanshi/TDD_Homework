@@ -11,6 +11,8 @@ test.js
 
 ***
 ##安裝與執行
+
 npm install
+
 npm test test.js
 
